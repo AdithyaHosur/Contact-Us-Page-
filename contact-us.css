@@ -1,0 +1,44 @@
+
+.vis{
+    visibility: hidden;
+}
+
+.vis-active{
+    visibility: visible;
+    opacity: 1;
+}
+
+#phone-number:valid{
+    border-color: green;
+}
+#phone-number:focus:invalid{
+    border-color: red;
+}
+ 
+.container{
+    background-color: lightgoldenrodyellow;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: -10px;;
+}
+
+.submit-btn{
+    margin-top: -30px;
+}
+
+.form-control.success input{
+    border-color: greenyellow;
+}
+
+.form-control.error input{
+    border-color: red;
+}
+
+#name-error,
+#email-error,
+#exp-error,
+#gender-error,
+#query-error{
+    color: red;
+    margin-bottom: -2px;
+}
